@@ -1,0 +1,11 @@
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos quae commodi doloribus rem qui exercitationem sint dolorum! Maxime eum, debitis itaque iusto voluptates dolor nostrum qui error nisi facilis?</p>
+@defer(on viewport){
+<app-heavy></app-heavy>
+}@placeholder {
+  <h3>this is place holder</h3>  
+}
+@loading() {
+    <h3>Content is loading</h3>
+}@error {
+    <h3>Error while loading heavy component</h3>
+}

@@ -1,0 +1,50 @@
+/* navbar.component.css */
+
+nav {
+  background-color: #ff7f50; /* Orange background */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #ff6347; /* Darker orange on hover/active */
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
